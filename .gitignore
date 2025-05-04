@@ -1,0 +1,20 @@
+# Ignorar tudo por padrão
+*
+
+# Permitir apenas os arquivos/diretórios específicos que queremos
+!/src/main/
+!/pom.xml
+
+# Dentro do src, ignorar test e resources
+src/test/
+src/main/resources/
+
+# Manter os arquivos Java
+!**/*.java
+
+# Manter a estrutura de pacotes
+!**/com/br/desafio/fipe/
+
+# Arquivos de IDE (opcional - se quiser manter)
+!.gitignore
+!HELP.md
